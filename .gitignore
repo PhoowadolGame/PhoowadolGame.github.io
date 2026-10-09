@@ -1,0 +1,32 @@
+# secrets / credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+*.crt
+secrets.*
+credentials*.json
+config.local.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# deps / logs / backups
+node_modules/
+*.log
+*.bak
+*.zip
+*.sql
+*.csv
+# keep only the images you actually publish; originals/scans stay local
+originals/
+raw/
+private/
